@@ -12,23 +12,15 @@ word = gets.chomp
 
 elu_mestre(word, 'amigo', 'amigue')
 elu_mestre(word, 'amiga', 'amigue')
-elu_mestre(word, 'amigos', 'amigues')
-elu_mestre(word, 'amigas', 'amigues')
 
-elu_mestre(word, 'ele', ' elu')
-elu_mestre(word, 'ela', ' elu')
-elu_mestre(word, 'eles', ' elus')
-elu_mestre(word, 'elas', ' elus')
+elu_mestre(word, 'ele', 'elu')
+elu_mestre(word, 'ela', 'elu')
 
-elu_mestre(word, 'essa', ' essu')
-elu_mestre(word, 'esse', ' essu')
-elu_mestre(word, 'essas', ' essus')
-elu_mestre(word, 'esses', ' essus')
+elu_mestre(word, 'essa', 'essu')
+elu_mestre(word, 'esse', 'essu')
 
 elu_mestre(word, 'seu', 'sue')
 elu_mestre(word, 'sua', 'sue')
-elu_mestre(word, 'seus', 'sues')
-elu_mestre(word, 'suas', 'sues')
 
 elu_mestre(word, ' a ', ' ê ')
 elu_mestre(word, ' o ', ' ê ')
@@ -37,26 +29,56 @@ elu_mestre(word, ' os ', ' es ')
 
 elu_mestre(word, 'meu', 'minhe')
 elu_mestre(word, 'minha', 'minhe')
-elu_mestre(word, 'meus ', 'minhes')
-elu_mestre(word, 'minhas ', 'minhes')
 
 elu_mestre(word, 'nossa', 'nosse')
 elu_mestre(word, 'nosso', 'nosse')
-elu_mestre(word, 'nossas', 'nosses')
-elu_mestre(word, 'nossos', 'nosses')
 
-elu_mestre(word, 'boa', ' boe ')
-elu_mestre(word, 'bom', ' boe ')
+elu_mestre(word, 'boa', 'boe')
+elu_mestre(word, 'bom', 'boe')
 
-elu_mestre(word, 'má', ' male ')
-elu_mestre(word, 'mau', ' male ')
+elu_mestre(word, 'má', 'male')
+elu_mestre(word, 'mau', 'male')
 
 elu_mestre(word, ' à', ' ae')
 elu_mestre(word, ' ao', ' ae')
 
-elu_mestre(word, 'nele', ' nelu ')
-elu_mestre(word, 'nela', ' nelu ')
-elu_mestre(word, 'neles', ' nelus ')
-elu_mestre(word, 'nelas', ' nelus ')
+elu_mestre(word, 'nele', 'nelu')
+elu_mestre(word, 'nela', 'nelu')
+
+elu_mestre(word, 'este', 'estu')
+elu_mestre(word, 'esta', 'estu')
+
+elu_mestre(word, 'mesma', 'mesme')
+elu_mestre(word, 'mesmo', 'mesme')
+
+elu_mestre(word, 'própria', 'próprie')
+elu_mestre(word, 'próprio', 'próprie')
+
+elu_mestre(word, 'outra', 'outre')
+elu_mestre(word, 'outro', 'outre')
+
+elu_mestre(word, 'quanto', 'quante')
+elu_mestre(word, 'quanta', 'quante')
+
+elu_mestre(word, 'tanta', 'tante')
+elu_mestre(word, 'tanto', 'tante')
+
+elu_mestre(word, 'toda', 'tode')
+elu_mestre(word, 'todo', 'tode')
+
+elu_mestre(word, 'várias', 'váries')
+elu_mestre(word, 'vários', 'váries')
+
+elu_mestre(word, 'muita', 'muite')
+elu_mestre(word, 'muito', 'muite')
+
+elu_mestre(word, 'pouca', 'pouque')
+elu_mestre(word, 'pouco', 'pouque')
+
+elu_mestre(word, 'algum', 'algume')
+elu_mestre(word, 'alguma', 'algume')
+elu_mestre(word, 'alguns', 'algume')
+
+elu_mestre(word, 'meliodas', 'meliodes')
 
 puts word
