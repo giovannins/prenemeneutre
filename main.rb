@@ -65,6 +65,8 @@ elu_mestre(word, 'tanto', 'tante')
 
 elu_mestre(word, 'toda', 'tode')
 elu_mestre(word, 'todo', 'tode')
+elu_mestre(word, 'todas', 'todes')
+elu_mestre(word, 'todos', 'todes')
 
 elu_mestre(word, 'várias', 'váries')
 elu_mestre(word, 'vários', 'váries')
@@ -80,5 +82,15 @@ elu_mestre(word, 'alguma', 'algume')
 elu_mestre(word, 'alguns', 'algume')
 
 elu_mestre(word, 'meliodas', 'meliodes')
+
+elu_mestre(word, 'senhor', 'senhore')
+elu_mestre(word, 'senhora', 'senhore')
+elu_mestre(word, 'senhoras', 'senhores')
+
+elu_mestre(word, 'gostam', 'gostem')
+
+elu_mestre(word, 'exemplo', 'exemple')
+
+elu_mestre(word, 'sou', 'sxu')
 
 puts word
